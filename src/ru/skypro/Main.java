@@ -3,13 +3,9 @@ package ru.skypro;
 public class Main {
 
     public static void main(String[] args) {
-        int number = 0;
-        while (number < 10) {
-            number = number + 1;
-            System.out.print(number + " ");
-        }
-        System.out.println();
-        for (int i = 10; i > 0; i--) {
-            System.out.print(i + " ");
+        int Friday = 1;
+        int day = 1;
+        for (; Friday < 31; Friday = Friday+7) {
+            System.out.println("today is the " + Friday + "th of April 2022. It's Friday today. " + "Please, don't forget to prepare the report!");
         }
 }}
